@@ -68,18 +68,18 @@ layers:
   - HOME
   - END
   raise:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - INS
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -89,9 +89,9 @@ layers:
   - PG UP
   - {t: ▽, type: trans}
   - UP
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
+  - '-'
+  - +
+  - '|'
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
@@ -128,10 +128,10 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - A
-  - B
-  - C
-  - D
-  - E
+  - RIGHT
+  - UP ARROW
+  - LEFT ARROW
+  - DOWN
   adjust:
   - BT CLR
   - {t: BT, h: '0'}

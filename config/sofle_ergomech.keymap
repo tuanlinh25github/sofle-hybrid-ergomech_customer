@@ -66,12 +66,12 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp TILDE  &kp EXCL   &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
-&trans  &trans     &trans     &trans     &trans      &trans       &trans    &trans         &trans         &kp MINUS             &kp PLUS               &trans
-&trans     &trans   &trans     &trans  &trans   &trans    &trans  &trans      &trans     &trans              &kp COLON              &kp DOUBLE_QUOTES
-&trans    &trans  &trans  &trans  &kp LBRC    &kp RBRC     &kp LBKT   &kp RBKT       &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &trans
-&trans     &trans     &trans     &trans     &trans      &trans       &trans     &trans         &trans         &trans                &trans
-                                                                     &kp A      &kp END        &kp HOME       &kp HOME              &kp END
+&kp TILDE  &kp EXCL  &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
+&trans     &trans    &trans  &trans     &trans      &trans       &trans     &trans         &trans         &kp MINUS             &kp PLUS               &trans
+&trans     &trans    &trans  &trans     &trans      &trans       &trans     &trans         &trans         &trans                &kp COLON              &kp DOUBLE_QUOTES
+&trans     &trans    &trans  &trans     &kp LBRC    &kp RBRC     &kp LBKT   &kp RBKT       &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &trans
+&trans     &trans    &trans  &trans     &trans      &trans       &trans     &trans         &trans         &trans                &trans
+                                                                 &kp A      &kp END        &kp HOME       &kp HOME              &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -88,12 +88,12 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans     &trans    &trans    &trans     &trans   &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans        &kp PG_UP  &trans    &kp UP    &trans     &kp N0   &trans
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp DEL  &kp BSPC
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans     &trans    &trans    &trans     &trans   &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &trans     &trans    &trans    &trans     &trans
-                                                                                  &kp A      &kp B     &kp C     &kp D      &kp E
+&kp GRAVE  &kp F1      &kp F2     &kp F3       &kp F4       &kp F5    &kp F6     &kp F7     &kp F8        &kp F9          &kp F10   &kp INS
+&trans     &kp INS     &kp PSCRN  &kp K_CMENU  &trans       &trans    &kp PG_UP  &trans     &kp UP        &kp MINUS       &kp PLUS  &kp PIPE
+&trans     &kp LALT    &kp LCTRL  &kp LSHFT    &trans       &kp CLCK  &kp PG_DN  &kp LEFT   &kp DOWN      &kp RIGHT       &kp DEL   &kp BSPC
+&trans     &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans    &trans     &trans     &trans        &trans          &trans    &trans
+&trans     &trans      &trans     &trans       &trans       &trans    &trans     &trans     &trans        &trans          &trans
+                                                                      &kp A      &kp RIGHT  &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;

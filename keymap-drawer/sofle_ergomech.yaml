@@ -15,34 +15,34 @@ layers:
   - (
   - )
   - PRINTSCREEN
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '-'
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
-  - '&tran'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ':'
   - '"'
   - {t: ▽, type: trans}
-  - '&tran'
-  - '&tran'
-  - '&tran'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '{'
   - '}'
   - '['

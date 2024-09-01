@@ -67,9 +67,9 @@
 
             bindings = <
 &kp TILDE  &kp EXCL   &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRINTSCREEN
-&tran  &tran     &tran     &tran     &tran      &tran       &tran    &tran         &tran         &kp MINUS             &kp PLUS               &trans
-&trans     &tran   &tran     &tran  &tran   &tran    &tran  &tran      &tran     &tran              &kp COLON              &kp DOUBLE_QUOTES
-&trans    &tran  &tran  &tran  &kp LBRC    &kp RBRC     &kp LBKT   &kp RBKT       &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &trans
+&trans  &trans     &trans     &trans     &trans      &trans       &trans    &trans         &trans         &kp MINUS             &kp PLUS               &trans
+&trans     &trans   &trans     &trans  &trans   &trans    &trans  &trans      &trans     &trans              &kp COLON              &kp DOUBLE_QUOTES
+&trans    &trans  &trans  &trans  &kp LBRC    &kp RBRC     &kp LBKT   &kp RBKT       &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &trans
 &trans     &trans     &trans     &trans     &trans      &trans       &trans     &trans         &trans         &trans                &trans
                                                                      &kp A      &kp END        &kp HOME       &kp HOME              &kp END
             >;

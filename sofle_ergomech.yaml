@@ -5,7 +5,7 @@ layers:
   - [TAB, A, S, D, F, G, H, J, K, L, ;, '''']
   - [LSHFT, Z, X, C, V, B, N, M, ',', ., /, RSHFT]
   - [MUTE, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI, ENTER]
-  - [RIGHT, UP ARROW, LEFT, DOWN]
+  - [RIGHT, DOWN, LEFT, UP ARROW]
   lower:
   - - {t: ▽, type: trans}
     - F1
@@ -89,9 +89,9 @@ layers:
     - {t: ▽, type: trans}
     - CLCK
     - PG DN
-    - LEFT
+    - END
     - DOWN
-    - RIGHT
+    - HOME
     - DEL
     - BSPC
   - - {t: ▽, type: trans}
